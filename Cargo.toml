@@ -1,0 +1,15 @@
+[package]
+name = "rusty-term"
+version = "0.1.0"
+authors = ["KokaKiwi <kokakiwi@kokakiwi.net>"]
+description = "rusty-term is a simple terminal implementation in Rust for X."
+license = "MIT"
+
+[[bin]]
+name = "rt"
+
+[dependencies]
+clap = { version = "*", features = ["unstable"] }
+config = "*"
+x11 = { version = "*", features = ["xcursor", "xft", "xinput", "xlib" ] }
+xdg = "*"

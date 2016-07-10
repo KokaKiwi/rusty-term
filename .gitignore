@@ -1,0 +1,6 @@
+# Rust stuff
+target
+
+# Misc stuff
+.*
+!.gitignore
